@@ -1,0 +1,187 @@
+/* medium layout: 1280px. */
+
+@media only screen and (min-width:992px) and (max-width: 1200px) 
+
+{
+    
+    
+    
+    
+}
+
+/* tablet layout: 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) 
+
+
+{
+    
+    
+    
+}
+
+/*mobile layout: 320px */
+
+@media only screen and (max-width: 767px) 
+
+{
+    
+    .text{
+        top: 80px;
+        left: 60px;
+    }
+    .text>p{
+        font-size: 15px;
+    }
+    .text>h2{
+        font-size: 19px;
+    }
+    .text>h4{
+        font-size: 14px;
+    }
+    .round{
+        margin-top: -20px;
+    }
+    .navbar-logo {
+        max-width: 60%;
+    }
+
+    .banner-caption {
+        max-width: 80%;
+        top: 10%;
+    }
+
+    .caption {
+        max-width: 100%;
+    }
+
+    .caption-text {
+        font-size: 12px;
+        margin-bottom: -21px;
+    }
+
+    .caption-title {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    .caption-text-down {
+        font-size: 10px;
+        margin: 0px auto;
+    }
+
+    .btn.btn-learn-more {
+        margin-top: 0;
+        padding: 3px 20px;
+    }
+
+    .pop-slide {
+        margin: 0 auto;
+        top: 52%;
+    }
+
+    .pop-back {
+        min-height: 1260px;
+    }
+
+    .img-pop {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .img-pop-content {
+        margin: 0 auto;
+    }
+
+    .pop-title,
+    .pop-text {
+        text-align: center;
+    }
+
+    .company-value {
+        background-image: none;
+    }
+
+    .img-finance {
+        display: block;
+    }
+
+    .single-column,
+    .service-body {
+        text-align: center;
+    }
+
+    .img-service {
+        margin: 0 auto;
+    }
+
+    .offer-card-head {
+        margin-bottom: 145px;
+    }
+
+    .pop-offer {
+        min-height: 200px;
+    }
+
+    .footer-body {
+        padding: 0px 30px;
+    }
+
+    .footer-top {
+        padding: 40px 5px;
+    }
+
+    .recent-text {
+        padding: 0px 10px;
+    }
+
+    .social-icon {
+        text-align: center;
+    }
+
+    .item-social {
+        width: 30px;
+    }
+
+    .social-link {
+        line-height: 30px;
+    }
+
+    .mailing-list {
+        text-align: center;
+    }
+
+    .email-group {
+        margin: 0 auto;
+    }
+
+    .navbar-footer {
+        text-align: center;
+        min-height: 110px;
+    }
+
+    .footer-brand {
+        float: none;
+    }
+
+    .footer-nav > li {
+        display: inline-block;
+    }
+
+    .footer-nav > li > a {
+        padding: 10px 5px;
+    }
+
+    .about-list {
+        min-height: 200px;
+    }
+
+    .about-link {
+        padding: 0px 7px;
+    }
+    
+}
+
+/* wide mobile layout: 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
